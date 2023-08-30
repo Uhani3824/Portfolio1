@@ -1,0 +1,68 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.title,.profile,.education,.language,.myskills,.volunteer,.internship,.contactme{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(100% - 200px); 
+    margin: 75px 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.title{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.leducation,.llanguage,.pskills,h1,.lvolunteer,.linternship,.fa-solid,.fa-phone,.fa-solid,.fa-envelope,.mail,.fa-solid,.fa-location-dot{
+    background-color: white;
+    padding-left: 20px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {
+    width: 90%; 
+    background-color: #04AA6D;
+  }
+
+  .css {
+    width: 80%; 
+    background-color: #2196F3;
+  }
+
+  .js {
+    width: 65%; 
+    background-color: #f44336;
+  }
+
+  .cc {
+    width: 85%; 
+    background-color: #808080;
+  }
+
+
